@@ -32,7 +32,7 @@ fields_is_great <- pass_oe |>
   cols_hide(posteam) |> 
   tab_header(
     title = md("**Average EPA in Pure Passing Situations**"),
-    subtitle = md("*Pure Passing = Expected Pass >- 70%*")) |> 
+    subtitle = md("*Pure Passing = Expected Pass >= 70%*")) |> 
   tab_stubhead(label = "Quarterback") |> 
   gt_img_rows(headshot_url, height = 25) |> 
   cols_label(
